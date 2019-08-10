@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from '../components/container.component';
-
+import './home.styles.css';
 
 class Home extends React.Component {
     constructor() {
@@ -9,7 +9,7 @@ class Home extends React.Component {
     render() {
         return (
             <Container>
-                Hello there
+                <h1 className="text-center my-4">Living Beings</h1>
                 </Container> 
             );
     }
