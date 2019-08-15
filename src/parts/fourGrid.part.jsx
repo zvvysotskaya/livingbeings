@@ -1,11 +1,13 @@
 import React from 'react';
 import SMALL_PICTURES from '../data/smallPictures.data';
-import Container from '../components/container/container.component';
-import './fourGrid.styles.css';
+
+
+import Card from '../components/card/card.component';
+
 
 class FourGrids extends React.Component { 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             smallPictures: SMALL_PICTURES
         }
@@ -15,14 +17,13 @@ class FourGrids extends React.Component {
         return (
            
             <div className="row">
-                {smallPictures.map(small => {
-                    return <div className="col-md-3 p-2" key={small.id}>
-                        <div className="bg_white p-2">
-                            <img src={small.path} className="img-fluid w-100" alt={small.name} />
-                        </div>                
-                    </div>
-                })}                
-                </div>
+                {
+                    smallPictures.map(({ id, name, path }) => (
+                        <Card key={id} name={name} path={path} id={id} /> 
+                        
+                ))
+                }
+            </div>
                
         );
     }

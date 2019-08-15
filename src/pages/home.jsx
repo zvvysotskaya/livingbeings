@@ -3,6 +3,7 @@ import Container from '../components/container/container.component';
 import './home.styles.css';
 import FourGrids from '../parts/fourGrid.part';
 
+
 const Home = () => {
     
         return (

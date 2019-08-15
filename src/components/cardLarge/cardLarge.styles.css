@@ -1,0 +1,25 @@
+.largeCard {
+    background-color: #ffffff;
+    border: 3px solid #00ff21;
+    border-radius: 5px;
+}
+.largeCard img {
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #ff00bf;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3.7rem;
+    font-weight: 900;
+    text-shadow: 2px 2px #660066;
+    line-height: 7rem;
+}
+
+@media(max-width:768px) {
+    h2 {
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+}
