@@ -1,12 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
     "\\src",
+    "\\src\\components",
+    "\\src\\components\\card",
     "\\src\\data",
     "\\src\\pages",
     "\\src\\parts"
   ],
-  "SelectedNode": "\\public",
+  "SelectedNode": "\\src\\pages\\cardDetailes.jsx",
   "PreviewInSolutionExplorer": false
 }
